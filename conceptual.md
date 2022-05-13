@@ -43,6 +43,9 @@ Answer the following questions below:
 - What are some ways to decide which code to test?
   - For unit tests, find the smallest unit of testable code, that way you can prove that your code actually works. This will help detect bugs in the earlier stages, and this can make easier changes and simplified integrations. Doing so is more useful in the agile process. Testers don't get functional builds to test until integration is completed, so running unit tests can demonstrate code completeness.
 
+- What does `RETURNING` do in SQL? When would you use it?
+  - IN SQL, for INSERT/UPDATE/DELETE, you can have a RETURNING clause. This allows you to retrieve values of columns (and expresions based on columns) that were modified. Use it to avoid another roundtrip to the database.
+
 - What are some differences between Web Sockets and HTTP?
   - Web Sockets are an event-driven protocol, which means you can use it for realtime communication. HTTP is stateless and requires making a request in order to get a response. The difference between the two is that with Web Sockets, updates are sent immediately when they are available, unlike HTTP.
 
