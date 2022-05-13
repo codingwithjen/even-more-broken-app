@@ -6,7 +6,7 @@
  *  The error-handling middleware will return this.
  */
 
-class ExpressError extends Error {
+ class ExpressError extends Error {
   constructor(message, status) {
     super();
     this.message = message;

@@ -12,6 +12,8 @@ const createTokenForUser = require('../helpers/createToken');
  *
  *  Returns {token: jwt-token-string}.
  *
+ *  If incorrect username/password given, should raise 401.
+ *
  */
 
 router.post('/register', async function(req, res, next) {

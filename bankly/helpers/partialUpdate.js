@@ -11,7 +11,7 @@
  *
  */
 
-function sqlForPartialUpdate(table, items, key, id) {
+ function sqlForPartialUpdate(table, items, key, id) {
   // keep track of item indexes
   // store all the columns we want to update and associate with vals
 
